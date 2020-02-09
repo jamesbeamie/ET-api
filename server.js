@@ -4,6 +4,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 
 const handle = require("./handlers");
+const db = require("./models");
 
 const app = express();
 const port = process.env.PORT || 5000;
